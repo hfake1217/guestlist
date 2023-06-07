@@ -1,8 +1,11 @@
 html {
   background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  background-image: url(images/palm-leaves.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
   min-height: 1000px;
-  font-family: 'helvetica neue';
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
@@ -19,8 +22,9 @@ h1 {
 }
 
 #heading {
-  background-color: #A683E3;
+  background-color: rgb(24, 65, 98);
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 .item {
@@ -32,11 +36,13 @@ h1 {
 
 .item:last-child {
   border-bottom: 0;
+  font-family: 'Poiret One', cursive;
+  font-weight: 600;
 }
 
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: #A683E3;
+  text-decoration-color: rgb(24, 65, 98);
 }
 
 input[type="checkbox"] {
@@ -61,7 +67,7 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #A683E3;
+  background-color: rgb(24, 65, 98);
   color: #fff;
   font-size: 30px;
   padding-bottom: 6px;
